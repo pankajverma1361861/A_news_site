@@ -1,7 +1,7 @@
 // console.log("hello");
 let newscontainer = document.getElementById('news-container');
 let topnews = document.getElementById('topnews');
-let api = "https://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=85a36557fe7b4b7d8de7d1e51a645842";
+let api = "https://newsapi.org/v2/top-headlines?country=in&apiKey=85a36557fe7b4b7d8de7d1e51a645842";
 
 let xml = new XMLHttpRequest;
 xml.open('GET', `${api}`, true);
